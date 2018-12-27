@@ -181,6 +181,7 @@ on A.div_cd=b.source_code
 /**************************************
  2. 테이블 생성
 ***************************************/  
+/*
 CREATE TABLE @NHISNSC_database.DRUG_EXPOSURE ( 
      drug_exposure_id				BIGINT	 	NOT NULL , 
      person_id						INTEGER			NOT NULL , 
@@ -204,7 +205,7 @@ CREATE TABLE @NHISNSC_database.DRUG_EXPOSURE (
 	 route_source_value				VARCHAR(50)		NULL ,
 	 dose_unit_source_value			VARCHAR(50)		NULL
     );
-	
+*/	
 
 /**************************************
  3. 30T를 이용하여 데이터 입력
